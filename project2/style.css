@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#color-box {
+  width: 200px;
+  height: 200px;
+  background-color: #3498db;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+#change-color-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#change-color-btn:hover {
+  background-color: #27ae60;
+}
